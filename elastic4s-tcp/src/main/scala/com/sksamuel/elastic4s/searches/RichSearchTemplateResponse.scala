@@ -1,4 +1,4 @@
-package com.sksamuel.elastic4s.searches
+package com.sksamuel.elastic4s_6_2_11.searches
 
 import org.elasticsearch.rest.RestStatus
 import org.elasticsearch.script.mustache.SearchTemplateResponse

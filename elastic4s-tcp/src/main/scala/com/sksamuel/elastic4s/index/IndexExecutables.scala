@@ -1,8 +1,8 @@
-package com.sksamuel.elastic4s.index
+package com.sksamuel.elastic4s_6_2_11.index
 
-import com.sksamuel.elastic4s.indexes.IndexDefinition
-import com.sksamuel.elastic4s.json.XContentFactory
-import com.sksamuel.elastic4s.{EnumConversions, Executable, XContentFieldValueWriter}
+import com.sksamuel.elastic4s_6_2_11.indexes.IndexDefinition
+import com.sksamuel.elastic4s_6_2_11.json.XContentFactory
+import com.sksamuel.elastic4s_6_2_11.{EnumConversions, Executable, XContentFieldValueWriter}
 import org.elasticsearch.action.index.{IndexRequestBuilder, IndexResponse}
 import org.elasticsearch.client.Client
 import org.elasticsearch.common.xcontent.XContentType

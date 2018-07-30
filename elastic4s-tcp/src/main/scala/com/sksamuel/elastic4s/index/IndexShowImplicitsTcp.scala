@@ -1,7 +1,7 @@
-package com.sksamuel.elastic4s.index
+package com.sksamuel.elastic4s_6_2_11.index
 
 import cats.Show
-import com.sksamuel.elastic4s.indexes.{CreateIndexDefinition, IndexContentBuilder, IndexDefinition}
+import com.sksamuel.elastic4s_6_2_11.indexes.{CreateIndexDefinition, IndexContentBuilder, IndexDefinition}
 
 trait IndexShowImplicitsTcp {
 

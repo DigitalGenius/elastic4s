@@ -1,4 +1,4 @@
-package com.sksamuel.elastic4s.get
+package com.sksamuel.elastic4s_6_2_11.get
 
 import org.elasticsearch.common.document.DocumentField
 

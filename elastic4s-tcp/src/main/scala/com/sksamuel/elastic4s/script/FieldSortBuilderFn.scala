@@ -1,8 +1,8 @@
-package com.sksamuel.elastic4s.script
+package com.sksamuel.elastic4s_6_2_11.script
 
-import com.sksamuel.elastic4s.EnumConversions
-import com.sksamuel.elastic4s.searches.QueryBuilderFn
-import com.sksamuel.elastic4s.searches.sort.FieldSortDefinition
+import com.sksamuel.elastic4s_6_2_11.EnumConversions
+import com.sksamuel.elastic4s_6_2_11.searches.QueryBuilderFn
+import com.sksamuel.elastic4s_6_2_11.searches.sort.FieldSortDefinition
 import org.elasticsearch.search.sort.{FieldSortBuilder, SortBuilders}
 
 object FieldSortBuilderFn {

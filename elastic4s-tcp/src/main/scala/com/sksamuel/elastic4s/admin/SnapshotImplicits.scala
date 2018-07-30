@@ -1,7 +1,7 @@
-package com.sksamuel.elastic4s.admin
+package com.sksamuel.elastic4s_6_2_11.admin
 
-import com.sksamuel.elastic4s.Executable
-import com.sksamuel.elastic4s.snapshots.{
+import com.sksamuel.elastic4s_6_2_11.Executable
+import com.sksamuel.elastic4s_6_2_11.snapshots.{
   CreateRepository,
   CreateSnapshot,
   DeleteSnapshot,

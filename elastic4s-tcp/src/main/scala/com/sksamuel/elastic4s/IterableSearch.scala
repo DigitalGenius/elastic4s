@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s
+package com.sksamuel.elastic4s_6_2_11
 
-import com.sksamuel.elastic4s.searches.{RichSearchHit, RichSearchResponse, SearchDefinition}
+import com.sksamuel.elastic4s_6_2_11.searches.{RichSearchHit, RichSearchResponse, SearchDefinition}
 
 import scala.concurrent.duration.Duration
 import scala.concurrent.{Await, Future}

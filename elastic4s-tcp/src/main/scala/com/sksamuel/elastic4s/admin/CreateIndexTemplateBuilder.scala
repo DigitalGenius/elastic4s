@@ -1,9 +1,9 @@
-package com.sksamuel.elastic4s.admin
+package com.sksamuel.elastic4s_6_2_11.admin
 
-import com.sksamuel.elastic4s.indexes.{AnalysisBuilderFn, CreateIndexTemplateDefinition}
-import com.sksamuel.elastic4s.json.XContentFactory
-import com.sksamuel.elastic4s.mappings.MappingBuilderFn
-import com.sksamuel.elastic4s.searches.QueryBuilderFn
+import com.sksamuel.elastic4s_6_2_11.indexes.{AnalysisBuilderFn, CreateIndexTemplateDefinition}
+import com.sksamuel.elastic4s_6_2_11.json.XContentFactory
+import com.sksamuel.elastic4s_6_2_11.mappings.MappingBuilderFn
+import com.sksamuel.elastic4s_6_2_11.searches.QueryBuilderFn
 import org.elasticsearch.action.admin.indices.alias.Alias
 import org.elasticsearch.action.admin.indices.template.put.PutIndexTemplateRequestBuilder
 import org.elasticsearch.common.io.stream.BytesStreamOutput

@@ -1,4 +1,4 @@
-package com.sksamuel.elastic4s.termvectors
+package com.sksamuel.elastic4s_6_2_11.termvectors
 
 import org.apache.lucene.index.{Fields, Terms}
 import org.elasticsearch.action.termvectors.TermVectorsResponse

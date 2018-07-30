@@ -1,12 +1,12 @@
-package com.sksamuel.elastic4s.searches
+package com.sksamuel.elastic4s_6_2_11.searches
 
-import com.sksamuel.elastic4s.EnumConversions
-import com.sksamuel.elastic4s.script.SortBuilderFn
-import com.sksamuel.elastic4s.searches.aggs.AggregationBuilderFn
-import com.sksamuel.elastic4s.searches.collapse.CollapseBuilderFn
-import com.sksamuel.elastic4s.searches.highlighting.HighlightBuilderFn
-import com.sksamuel.elastic4s.searches.sort.SortDefinition
-import com.sksamuel.elastic4s.searches.suggestions.SuggestionBuilderFn
+import com.sksamuel.elastic4s_6_2_11.EnumConversions
+import com.sksamuel.elastic4s_6_2_11.script.SortBuilderFn
+import com.sksamuel.elastic4s_6_2_11.searches.aggs.AggregationBuilderFn
+import com.sksamuel.elastic4s_6_2_11.searches.collapse.CollapseBuilderFn
+import com.sksamuel.elastic4s_6_2_11.searches.highlighting.HighlightBuilderFn
+import com.sksamuel.elastic4s_6_2_11.searches.sort.SortDefinition
+import com.sksamuel.elastic4s_6_2_11.searches.suggestions.SuggestionBuilderFn
 import org.elasticsearch.action.search.SearchRequestBuilder
 import org.elasticsearch.client.Client
 import org.elasticsearch.common.unit.TimeValue

@@ -1,7 +1,7 @@
-package com.sksamuel.elastic4s.index
+package com.sksamuel.elastic4s_6_2_11.index
 
-import com.sksamuel.elastic4s.Executable
-import com.sksamuel.elastic4s.indexes.DeleteIndex
+import com.sksamuel.elastic4s_6_2_11.Executable
+import com.sksamuel.elastic4s_6_2_11.indexes.DeleteIndex
 import org.elasticsearch.action.ActionListener
 import org.elasticsearch.action.admin.indices.delete.{DeleteIndexRequest, DeleteIndexResponse}
 import org.elasticsearch.client.Client

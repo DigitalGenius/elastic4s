@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.update
+package com.sksamuel.elastic4s_6_2_11.update
 
-import com.sksamuel.elastic4s.DocumentRef
+import com.sksamuel.elastic4s_6_2_11.DocumentRef
 import org.elasticsearch.action.DocWriteResponse.Result
 import org.elasticsearch.action.support.replication.ReplicationResponse.ShardInfo
 import org.elasticsearch.action.update.UpdateResponse

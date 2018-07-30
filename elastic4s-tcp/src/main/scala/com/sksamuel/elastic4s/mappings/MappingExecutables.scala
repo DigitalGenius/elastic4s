@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.mappings
+package com.sksamuel.elastic4s_6_2_11.mappings
 
-import com.sksamuel.elastic4s.Executable
+import com.sksamuel.elastic4s_6_2_11.Executable
 import org.elasticsearch.action.ActionListener
 import org.elasticsearch.action.admin.indices.mapping.get.GetMappingsResponse
 import org.elasticsearch.action.admin.indices.mapping.put.PutMappingResponse

@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches.aggs
+package com.sksamuel.elastic4s_6_2_11.searches.aggs
 
-import com.sksamuel.elastic4s.searches.aggs.pipeline._
+import com.sksamuel.elastic4s_6_2_11.searches.aggs.pipeline._
 import cats.syntax.either._
 import org.elasticsearch.search.aggregations.{AggregationBuilder, PipelineAggregationBuilder}
 

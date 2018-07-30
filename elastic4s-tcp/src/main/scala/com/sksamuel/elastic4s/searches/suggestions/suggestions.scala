@@ -1,4 +1,4 @@
-package com.sksamuel.elastic4s.searches.suggestions
+package com.sksamuel.elastic4s_6_2_11.searches.suggestions
 
 import org.elasticsearch.search.suggest.Suggest
 import org.elasticsearch.search.suggest.Suggest.Suggestion

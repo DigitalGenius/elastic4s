@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.get
+package com.sksamuel.elastic4s_6_2_11.get
 
-import com.sksamuel.elastic4s.HitReader
+import com.sksamuel.elastic4s_6_2_11.HitReader
 import org.elasticsearch.action.get.MultiGetResponse
 import org.elasticsearch.action.get.MultiGetResponse.Failure
 

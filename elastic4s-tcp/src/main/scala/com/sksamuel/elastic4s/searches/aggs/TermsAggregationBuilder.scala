@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches.aggs
+package com.sksamuel.elastic4s_6_2_11.searches.aggs
 
-import com.sksamuel.elastic4s.{EnumConversions, ScriptBuilder}
+import com.sksamuel.elastic4s_6_2_11.{EnumConversions, ScriptBuilder}
 import org.elasticsearch.search.aggregations.bucket.terms.{IncludeExclude, TermsAggregationBuilder}
 import org.elasticsearch.search.aggregations.{AggregationBuilders, BucketOrder}
 

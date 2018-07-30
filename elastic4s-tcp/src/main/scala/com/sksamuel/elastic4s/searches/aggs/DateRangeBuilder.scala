@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches.aggs
+package com.sksamuel.elastic4s_6_2_11.searches.aggs
 
-import com.sksamuel.elastic4s.{ElasticDate, ScriptBuilder}
+import com.sksamuel.elastic4s_6_2_11.{ElasticDate, ScriptBuilder}
 import org.elasticsearch.search.aggregations.AggregationBuilders
 import org.elasticsearch.search.aggregations.bucket.range.DateRangeAggregationBuilder
 

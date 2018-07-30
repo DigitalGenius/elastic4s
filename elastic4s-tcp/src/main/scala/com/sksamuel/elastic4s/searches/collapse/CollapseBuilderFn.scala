@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches.collapse
+package com.sksamuel.elastic4s_6_2_11.searches.collapse
 
-import com.sksamuel.elastic4s.searches.queries.InnerHitBuilder
+import com.sksamuel.elastic4s_6_2_11.searches.queries.InnerHitBuilder
 import org.elasticsearch.search.collapse.CollapseBuilder
 
 object CollapseBuilderFn {

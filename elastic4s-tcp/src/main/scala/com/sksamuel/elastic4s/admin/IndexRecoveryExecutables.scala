@@ -1,7 +1,7 @@
-package com.sksamuel.elastic4s.admin
+package com.sksamuel.elastic4s_6_2_11.admin
 
-import com.sksamuel.elastic4s.Executable
-import com.sksamuel.elastic4s.indexes.admin.IndexRecoveryDefinition
+import com.sksamuel.elastic4s_6_2_11.Executable
+import com.sksamuel.elastic4s_6_2_11.indexes.admin.IndexRecoveryDefinition
 import org.elasticsearch.action.admin.indices.recovery.RecoveryResponse
 import org.elasticsearch.client.Client
 

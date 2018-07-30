@@ -1,4 +1,4 @@
-package com.sksamuel.elastic4s.searches
+package com.sksamuel.elastic4s_6_2_11.searches
 
 import org.elasticsearch.action.search.MultiSearchRequestBuilder
 import org.elasticsearch.client.Client

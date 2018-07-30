@@ -1,7 +1,7 @@
-package com.sksamuel.elastic4s.delete
+package com.sksamuel.elastic4s_6_2_11.delete
 
-import com.sksamuel.elastic4s.{EnumConversions, Executable, RefreshPolicy}
-import com.sksamuel.elastic4s.searches.QueryBuilderFn
+import com.sksamuel.elastic4s_6_2_11.{EnumConversions, Executable, RefreshPolicy}
+import com.sksamuel.elastic4s_6_2_11.searches.QueryBuilderFn
 import org.elasticsearch.action.delete.{DeleteRequestBuilder, DeleteResponse}
 import org.elasticsearch.action.support.ActiveShardCount
 import org.elasticsearch.client.Client

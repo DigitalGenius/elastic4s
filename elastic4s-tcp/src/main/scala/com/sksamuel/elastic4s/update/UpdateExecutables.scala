@@ -1,8 +1,8 @@
-package com.sksamuel.elastic4s.update
+package com.sksamuel.elastic4s_6_2_11.update
 
-import com.sksamuel.elastic4s._
-import com.sksamuel.elastic4s.json.{XContentBuilder, XContentFactory}
-import com.sksamuel.elastic4s.searches.QueryBuilderFn
+import com.sksamuel.elastic4s_6_2_11._
+import com.sksamuel.elastic4s_6_2_11.json.{XContentBuilder, XContentFactory}
+import com.sksamuel.elastic4s_6_2_11.searches.QueryBuilderFn
 import org.elasticsearch.action.support.ActiveShardCount
 import org.elasticsearch.action.update.{UpdateRequestBuilder, UpdateResponse}
 import org.elasticsearch.client.Client

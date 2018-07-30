@@ -1,8 +1,8 @@
-package com.sksamuel.elastic4s.get
+package com.sksamuel.elastic4s_6_2_11.get
 
 import java.util
 
-import com.sksamuel.elastic4s.Hit
+import com.sksamuel.elastic4s_6_2_11.Hit
 import org.elasticsearch.action.get.GetResponse
 import org.elasticsearch.common.document.DocumentField
 

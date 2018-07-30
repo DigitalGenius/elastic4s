@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.index
+package com.sksamuel.elastic4s_6_2_11.index
 
-import com.sksamuel.elastic4s.indexes.CreateIndexDefinition
+import com.sksamuel.elastic4s_6_2_11.indexes.CreateIndexDefinition
 import org.elasticsearch.action.admin.indices.create.CreateIndexRequest
 import org.elasticsearch.common.xcontent.XContentType
 

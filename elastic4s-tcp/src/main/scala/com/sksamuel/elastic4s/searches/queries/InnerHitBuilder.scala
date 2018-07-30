@@ -1,9 +1,9 @@
-package com.sksamuel.elastic4s.searches.queries
+package com.sksamuel.elastic4s_6_2_11.searches.queries
 
-import com.sksamuel.elastic4s.script.SortBuilderFn
-import com.sksamuel.elastic4s.searches.HighlightOptionsDefinition
-import com.sksamuel.elastic4s.searches.highlighting.HighlightBuilderFn
-import com.sksamuel.elastic4s.searches.sort.SortDefinition
+import com.sksamuel.elastic4s_6_2_11.script.SortBuilderFn
+import com.sksamuel.elastic4s_6_2_11.searches.HighlightOptionsDefinition
+import com.sksamuel.elastic4s_6_2_11.searches.highlighting.HighlightBuilderFn
+import com.sksamuel.elastic4s_6_2_11.searches.sort.SortDefinition
 import org.elasticsearch.index.query.InnerHitBuilder
 import org.elasticsearch.search.fetch.subphase.FetchSourceContext
 import org.elasticsearch.search.sort.SortBuilder

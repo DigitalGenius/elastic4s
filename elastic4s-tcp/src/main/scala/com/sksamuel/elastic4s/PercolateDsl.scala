@@ -1,8 +1,8 @@
-package com.sksamuel.elastic4s
+package com.sksamuel.elastic4s_6_2_11
 
-import com.sksamuel.elastic4s.indexes.IndexDefinition
-import com.sksamuel.elastic4s.searches.QueryBuilderFn
-import com.sksamuel.elastic4s.searches.queries.QueryDefinition
+import com.sksamuel.elastic4s_6_2_11.indexes.IndexDefinition
+import com.sksamuel.elastic4s_6_2_11.searches.QueryBuilderFn
+import com.sksamuel.elastic4s_6_2_11.searches.queries.QueryDefinition
 
 trait PercolateDsl {
   self: ElasticDsl =>

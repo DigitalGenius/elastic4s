@@ -1,8 +1,8 @@
-package com.sksamuel.elastic4s.searches.aggs
+package com.sksamuel.elastic4s_6_2_11.searches.aggs
 
-import com.sksamuel.elastic4s.{EnumConversions, ScriptBuilder}
-import com.sksamuel.elastic4s.script.SortBuilderFn
-import com.sksamuel.elastic4s.searches.sort.SortDefinition
+import com.sksamuel.elastic4s_6_2_11.{EnumConversions, ScriptBuilder}
+import com.sksamuel.elastic4s_6_2_11.script.SortBuilderFn
+import com.sksamuel.elastic4s_6_2_11.searches.sort.SortDefinition
 import org.elasticsearch.search.aggregations.AggregationBuilders
 import org.elasticsearch.search.aggregations.metrics.tophits.TopHitsAggregationBuilder
 import org.elasticsearch.search.sort.SortBuilder

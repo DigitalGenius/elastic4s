@@ -1,7 +1,7 @@
-package com.sksamuel.elastic4s.searches.queries
+package com.sksamuel.elastic4s_6_2_11.searches.queries
 
-import com.sksamuel.elastic4s.EnumConversions
-import com.sksamuel.elastic4s.searches.{QueryBuilderFn, ScoreMode}
+import com.sksamuel.elastic4s_6_2_11.EnumConversions
+import com.sksamuel.elastic4s_6_2_11.searches.{QueryBuilderFn, ScoreMode}
 import org.elasticsearch.index.query.{NestedQueryBuilder, QueryBuilders}
 
 object NestedQueryBuilderFn {

@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.settings
+package com.sksamuel.elastic4s_6_2_11.settings
 
-import com.sksamuel.elastic4s.{EnumConversions, Executable}
+import com.sksamuel.elastic4s_6_2_11.{EnumConversions, Executable}
 import org.elasticsearch.action.admin.indices.settings.get.{GetSettingsRequest, GetSettingsResponse}
 import org.elasticsearch.action.admin.indices.settings.put.{UpdateSettingsRequest, UpdateSettingsResponse}
 import org.elasticsearch.client.Client

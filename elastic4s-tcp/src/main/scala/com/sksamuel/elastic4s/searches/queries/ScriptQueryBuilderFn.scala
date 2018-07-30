@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches.queries
+package com.sksamuel.elastic4s_6_2_11.searches.queries
 
-import com.sksamuel.elastic4s.ScriptBuilder
+import com.sksamuel.elastic4s_6_2_11.ScriptBuilder
 import org.elasticsearch.index.query.{QueryBuilders, ScriptQueryBuilder}
 
 object ScriptQueryBuilderFn {

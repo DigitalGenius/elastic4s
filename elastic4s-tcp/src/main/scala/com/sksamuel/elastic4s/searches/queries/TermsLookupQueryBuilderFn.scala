@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches.queries
+package com.sksamuel.elastic4s_6_2_11.searches.queries
 
-import com.sksamuel.elastic4s.searches.queries.term.TermsLookupQueryDefinition
+import com.sksamuel.elastic4s_6_2_11.searches.queries.term.TermsLookupQueryDefinition
 import org.elasticsearch.index.query.{QueryBuilders, TermsQueryBuilder}
 
 object TermsLookupQueryBuilderFn {

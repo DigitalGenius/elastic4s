@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.get
+package com.sksamuel.elastic4s_6_2_11.get
 
-import com.sksamuel.elastic4s.{EnumConversions, Executable}
+import com.sksamuel.elastic4s_6_2_11.{EnumConversions, Executable}
 import org.elasticsearch.action.get.{GetResponse, MultiGetRequest, MultiGetRequestBuilder, MultiGetResponse}
 import org.elasticsearch.client.Client
 

@@ -1,4 +1,4 @@
-package com.sksamuel.elastic4s
+package com.sksamuel.elastic4s_6_2_11
 
 import org.elasticsearch.action.{ActionListener, ListenableActionFuture}
 import org.elasticsearch.client.Client

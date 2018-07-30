@@ -1,7 +1,7 @@
-package com.sksamuel.elastic4s.search
+package com.sksamuel.elastic4s_6_2_11.search
 
-import com.sksamuel.elastic4s.Executable
-import com.sksamuel.elastic4s.searches.{
+import com.sksamuel.elastic4s_6_2_11.Executable
+import com.sksamuel.elastic4s_6_2_11.searches.{
   ClearScrollDefinition,
   ClearScrollResult,
   RichSearchResponse,

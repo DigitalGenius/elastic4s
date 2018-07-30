@@ -1,10 +1,10 @@
-package com.sksamuel.elastic4s.bulk
+package com.sksamuel.elastic4s_6_2_11.bulk
 
-import com.sksamuel.elastic4s.{EnumConversions, Executable}
-import com.sksamuel.elastic4s.delete.{DeleteByIdDefinition, DeleteExecutables}
-import com.sksamuel.elastic4s.index.IndexExecutables
-import com.sksamuel.elastic4s.indexes.IndexDefinition
-import com.sksamuel.elastic4s.update.{UpdateDefinition, UpdateExecutables}
+import com.sksamuel.elastic4s_6_2_11.{EnumConversions, Executable}
+import com.sksamuel.elastic4s_6_2_11.delete.{DeleteByIdDefinition, DeleteExecutables}
+import com.sksamuel.elastic4s_6_2_11.index.IndexExecutables
+import com.sksamuel.elastic4s_6_2_11.indexes.IndexDefinition
+import com.sksamuel.elastic4s_6_2_11.update.{UpdateDefinition, UpdateExecutables}
 import org.elasticsearch.action.bulk.BulkResponse
 import org.elasticsearch.client.Client
 

@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.admin
+package com.sksamuel.elastic4s_6_2_11.admin
 
-import com.sksamuel.elastic4s._
+import com.sksamuel.elastic4s_6_2_11._
 import org.elasticsearch.action.admin.indices.cache.clear.ClearIndicesCacheResponse
 import org.elasticsearch.action.admin.indices.close.CloseIndexResponse
 import org.elasticsearch.action.admin.indices.exists.indices.IndicesExistsResponse

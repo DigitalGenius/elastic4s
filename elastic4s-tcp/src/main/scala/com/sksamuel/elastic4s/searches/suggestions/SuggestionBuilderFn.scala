@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches.suggestions
+package com.sksamuel.elastic4s_6_2_11.searches.suggestions
 
-import com.sksamuel.elastic4s.searches.suggestion._
+import com.sksamuel.elastic4s_6_2_11.searches.suggestion._
 import org.elasticsearch.search.suggest.SuggestionBuilder
 
 object SuggestionBuilderFn {

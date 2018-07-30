@@ -1,7 +1,7 @@
-package com.sksamuel.elastic4s.index.admin
+package com.sksamuel.elastic4s_6_2_11.index.admin
 
-import com.sksamuel.elastic4s.Executable
-import com.sksamuel.elastic4s.indexes.admin.ForceMergeDefinition
+import com.sksamuel.elastic4s_6_2_11.Executable
+import com.sksamuel.elastic4s_6_2_11.indexes.admin.ForceMergeDefinition
 import org.elasticsearch.action.admin.indices.forcemerge.ForceMergeResponse
 import org.elasticsearch.client.Client
 

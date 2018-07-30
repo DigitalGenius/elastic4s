@@ -1,8 +1,8 @@
-package com.sksamuel.elastic4s.searches.queries
+package com.sksamuel.elastic4s_6_2_11.searches.queries
 
 import java.util.UUID
 
-import com.sksamuel.elastic4s.searches.queries.term.{BuildableTermsQuery, TermsQueryDefinition}
+import com.sksamuel.elastic4s_6_2_11.searches.queries.term.{BuildableTermsQuery, TermsQueryDefinition}
 import org.elasticsearch.index.query.{QueryBuilders, TermsQueryBuilder}
 
 trait BuildableTermsQueryImplicits {

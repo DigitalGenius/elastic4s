@@ -1,12 +1,12 @@
-package com.sksamuel.elastic4s.admin
+package com.sksamuel.elastic4s_6_2_11.admin
 
-import com.sksamuel.elastic4s.cluster.{
+import com.sksamuel.elastic4s_6_2_11.cluster.{
   ClusterHealthDefinition,
   ClusterSettingsDefinition,
   ClusterStateDefinition,
   ClusterStatsDefinition
 }
-import com.sksamuel.elastic4s.{Executable, HealthStatus, Priority}
+import com.sksamuel.elastic4s_6_2_11.{Executable, HealthStatus, Priority}
 import org.elasticsearch.action.admin.cluster.health.{ClusterHealthRequestBuilder, ClusterHealthResponse}
 import org.elasticsearch.action.admin.cluster.settings.ClusterUpdateSettingsResponse
 import org.elasticsearch.action.admin.cluster.state.{ClusterStateRequestBuilder, ClusterStateResponse}

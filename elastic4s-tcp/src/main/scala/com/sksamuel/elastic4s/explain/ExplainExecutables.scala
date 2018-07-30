@@ -1,7 +1,7 @@
-package com.sksamuel.elastic4s.explain
+package com.sksamuel.elastic4s_6_2_11.explain
 
-import com.sksamuel.elastic4s.Executable
-import com.sksamuel.elastic4s.searches.QueryBuilderFn
+import com.sksamuel.elastic4s_6_2_11.Executable
+import com.sksamuel.elastic4s_6_2_11.searches.QueryBuilderFn
 import org.elasticsearch.action.explain.{ExplainRequestBuilder, ExplainResponse}
 import org.elasticsearch.client.Client
 

@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches.queries.span
+package com.sksamuel.elastic4s_6_2_11.searches.queries.span
 
-import com.sksamuel.elastic4s.searches.QueryBuilderFn
+import com.sksamuel.elastic4s_6_2_11.searches.QueryBuilderFn
 import org.elasticsearch.index.query.{QueryBuilders, SpanNotQueryBuilder, SpanQueryBuilder}
 
 object SpanNotQueryBuilder {
