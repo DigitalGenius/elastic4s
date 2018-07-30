@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches.aggs
+package com.sksamuel.elastic4s_6_2_11.searches.aggs
 
-import com.sksamuel.elastic4s.searches.QueryBuilderFn
+import com.sksamuel.elastic4s_6_2_11.searches.QueryBuilderFn
 import org.elasticsearch.search.aggregations.AggregationBuilders
 import org.elasticsearch.search.aggregations.bucket.filter.FiltersAggregationBuilder
 

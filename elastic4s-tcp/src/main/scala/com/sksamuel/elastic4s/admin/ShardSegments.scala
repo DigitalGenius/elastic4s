@@ -1,4 +1,4 @@
-package com.sksamuel.elastic4s.admin
+package com.sksamuel.elastic4s_6_2_11.admin
 
 import org.elasticsearch.index.engine.Segment
 

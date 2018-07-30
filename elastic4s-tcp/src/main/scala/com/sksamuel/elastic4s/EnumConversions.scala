@@ -1,21 +1,21 @@
-package com.sksamuel.elastic4s
+package com.sksamuel.elastic4s_6_2_11
 
-import com.sksamuel.elastic4s.admin.IndicesOptions
-import com.sksamuel.elastic4s.script.ScriptType
-import com.sksamuel.elastic4s.searches.aggs.pipeline.GapPolicy
-import com.sksamuel.elastic4s.searches.aggs.{HistogramOrder, PercentilesMethod, SubAggCollectionMode}
-import com.sksamuel.elastic4s.searches.queries.funcscorer.{
+import com.sksamuel.elastic4s_6_2_11.admin.IndicesOptions
+import com.sksamuel.elastic4s_6_2_11.script.ScriptType
+import com.sksamuel.elastic4s_6_2_11.searches.aggs.pipeline.GapPolicy
+import com.sksamuel.elastic4s_6_2_11.searches.aggs.{HistogramOrder, PercentilesMethod, SubAggCollectionMode}
+import com.sksamuel.elastic4s_6_2_11.searches.queries.funcscorer.{
   CombineFunction,
   FieldValueFactorFunctionModifier,
   FunctionScoreQueryScoreMode,
   MultiValueMode
 }
-import com.sksamuel.elastic4s.searches.queries.geo.{GeoDistance, GeoExecType, GeoValidationMethod}
-import com.sksamuel.elastic4s.searches.queries.matches.ZeroTermsQuery
-import com.sksamuel.elastic4s.searches.queries.{RegexpFlag, SimpleQueryStringFlag}
-import com.sksamuel.elastic4s.searches.sort.{ScriptSortType, SortMode, SortOrder}
-import com.sksamuel.elastic4s.searches.suggestion.{SortBy, StringDistanceImpl, SuggestMode}
-import com.sksamuel.elastic4s.searches.{GeoPoint, QueryRescoreMode, ScoreMode, SearchType}
+import com.sksamuel.elastic4s_6_2_11.searches.queries.geo.{GeoDistance, GeoExecType, GeoValidationMethod}
+import com.sksamuel.elastic4s_6_2_11.searches.queries.matches.ZeroTermsQuery
+import com.sksamuel.elastic4s_6_2_11.searches.queries.{RegexpFlag, SimpleQueryStringFlag}
+import com.sksamuel.elastic4s_6_2_11.searches.sort.{ScriptSortType, SortMode, SortOrder}
+import com.sksamuel.elastic4s_6_2_11.searches.suggestion.{SortBy, StringDistanceImpl, SuggestMode}
+import com.sksamuel.elastic4s_6_2_11.searches.{GeoPoint, QueryRescoreMode, ScoreMode, SearchType}
 import org.elasticsearch.action.support.WriteRequest
 import org.elasticsearch.common.lucene.search.function.{FieldValueFactorFunction, FunctionScoreQuery}
 import org.elasticsearch.common.settings.Settings

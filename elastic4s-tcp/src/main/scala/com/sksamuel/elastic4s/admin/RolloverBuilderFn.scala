@@ -1,13 +1,13 @@
-package com.sksamuel.elastic4s.admin
+package com.sksamuel.elastic4s_6_2_11.admin
 
-import com.sksamuel.elastic4s.mappings.MappingBuilderFn
+import com.sksamuel.elastic4s_6_2_11.mappings.MappingBuilderFn
 import org.elasticsearch.action.admin.indices.rollover.RolloverRequestBuilder
 import org.elasticsearch.client.Client
 import org.elasticsearch.common.unit.TimeValue
 
 object RolloverBuilderFn {
 
-  import com.sksamuel.elastic4s.EnumConversions._
+  import com.sksamuel.elastic4s_6_2_11.EnumConversions._
 
   def apply(client: Client, req: RolloverIndex): RolloverRequestBuilder = {
     val builder = client.admin().indices().prepareRolloverIndex(req.sourceAlias)

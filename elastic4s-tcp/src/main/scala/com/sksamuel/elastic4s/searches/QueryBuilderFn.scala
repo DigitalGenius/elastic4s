@@ -1,11 +1,11 @@
-package com.sksamuel.elastic4s.searches
+package com.sksamuel.elastic4s_6_2_11.searches
 
-import com.sksamuel.elastic4s.searches.queries._
-import com.sksamuel.elastic4s.searches.queries.funcscorer.{FunctionScoreBuilderFn, FunctionScoreQueryDefinition}
-import com.sksamuel.elastic4s.searches.queries.geo._
-import com.sksamuel.elastic4s.searches.queries.matches._
-import com.sksamuel.elastic4s.searches.queries.span._
-import com.sksamuel.elastic4s.searches.queries.term.{
+import com.sksamuel.elastic4s_6_2_11.searches.queries._
+import com.sksamuel.elastic4s_6_2_11.searches.queries.funcscorer.{FunctionScoreBuilderFn, FunctionScoreQueryDefinition}
+import com.sksamuel.elastic4s_6_2_11.searches.queries.geo._
+import com.sksamuel.elastic4s_6_2_11.searches.queries.matches._
+import com.sksamuel.elastic4s_6_2_11.searches.queries.span._
+import com.sksamuel.elastic4s_6_2_11.searches.queries.term.{
   TermQueryDefinition,
   TermsLookupQueryDefinition,
   TermsQueryDefinition

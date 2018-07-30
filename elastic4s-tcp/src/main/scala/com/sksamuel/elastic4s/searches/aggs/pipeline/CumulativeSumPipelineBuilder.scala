@@ -1,4 +1,4 @@
-package com.sksamuel.elastic4s.searches.aggs.pipeline
+package com.sksamuel.elastic4s_6_2_11.searches.aggs.pipeline
 
 import org.elasticsearch.search.aggregations.pipeline.PipelineAggregatorBuilders
 import org.elasticsearch.search.aggregations.pipeline.cumulativesum.CumulativeSumPipelineAggregationBuilder

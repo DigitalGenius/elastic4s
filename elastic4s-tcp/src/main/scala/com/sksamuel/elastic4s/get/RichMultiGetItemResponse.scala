@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.get
+package com.sksamuel.elastic4s_6_2_11.get
 
-import com.sksamuel.elastic4s.{DocumentRef, HitReader}
+import com.sksamuel.elastic4s_6_2_11.{DocumentRef, HitReader}
 import org.elasticsearch.action.get.{GetResponse, MultiGetItemResponse, MultiGetResponse}
 
 import scala.util.{Failure, Success, Try}

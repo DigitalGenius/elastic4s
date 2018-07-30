@@ -1,7 +1,7 @@
-package com.sksamuel.elastic4s.reindex
+package com.sksamuel.elastic4s_6_2_11.reindex
 
-import com.sksamuel.elastic4s.searches.QueryBuilderFn
-import com.sksamuel.elastic4s.{Executable, ScriptBuilder}
+import com.sksamuel.elastic4s_6_2_11.searches.QueryBuilderFn
+import com.sksamuel.elastic4s_6_2_11.{Executable, ScriptBuilder}
 import org.elasticsearch.action.support.ActiveShardCount
 import org.elasticsearch.action.support.WriteRequest.RefreshPolicy
 import org.elasticsearch.client.Client

@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.task
+package com.sksamuel.elastic4s_6_2_11.task
 
-import com.sksamuel.elastic4s.Executable
+import com.sksamuel.elastic4s_6_2_11.Executable
 import org.elasticsearch.action.admin.cluster.node.tasks.cancel.CancelTasksResponse
 import org.elasticsearch.action.admin.cluster.node.tasks.list.ListTasksResponse
 import org.elasticsearch.action.admin.cluster.tasks.PendingClusterTasksResponse

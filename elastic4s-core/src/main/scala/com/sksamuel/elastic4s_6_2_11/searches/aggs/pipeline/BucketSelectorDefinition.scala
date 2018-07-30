@@ -1,0 +1,16 @@
+package com.sksamuel.elastic4s_6_2_11.searches.aggs.pipeline
+
+import com.sksamuel.elastic4s_6_2_11.script.ScriptDefinition
+
+case class BucketSelectorDefinition(name: String,
+                                    script: ScriptDefinition,
+                                    bucketsPathMap: Map[String, String],
+                                    gapPolicy: Option[GapPolicy] = None,
+                                    metadata: Map[String, AnyRef] = Map.empty)
+    extends PipelineAggregationDefinition {
+
+  type T = BucketSelectorDefinition
+
+  def gapPolicy(gapPolicy: GapPolicy): BucketSelectorDefinition         = copy(gapPolicy = Some(gapPolicy))
+  def metadata(metadata: Map[String, AnyRef]): BucketSelectorDefinition = copy(metadata = metadata)
+}

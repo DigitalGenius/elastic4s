@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches
+package com.sksamuel.elastic4s_6_2_11.searches
 
-import com.sksamuel.elastic4s.HitReader
+import com.sksamuel.elastic4s_6_2_11.HitReader
 import org.elasticsearch.action.search.MultiSearchResponse
 
 case class RichMultiSearchResponseItem(item: MultiSearchResponse.Item) {

@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches
+package com.sksamuel.elastic4s_6_2_11.searches
 
-import com.sksamuel.elastic4s.Hit
+import com.sksamuel.elastic4s_6_2_11.Hit
 import com.sksamuel.exts.StringOption
 import org.apache.lucene.search.Explanation
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightField

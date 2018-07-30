@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s
+package com.sksamuel.elastic4s_6_2_11
 
-import com.sksamuel.elastic4s.script.{ScriptDefinition, ScriptType}
+import com.sksamuel.elastic4s_6_2_11.script.{ScriptDefinition, ScriptType}
 import org.elasticsearch.script.Script
 
 import scala.collection.JavaConverters._
@@ -11,7 +11,7 @@ object ScriptBuilder {
 
   def apply(script: ScriptDefinition): Script = {
     var options = script.options.asJava
-    if (script.scriptType != com.sksamuel.elastic4s.script.ScriptType.Inline) {
+    if (script.scriptType != com.sksamuel.elastic4s_6_2_11.script.ScriptType.Inline) {
       options = null
     }
     val lang = if (script.scriptType == ScriptType.Stored) null else script.lang.getOrElse(Script.DEFAULT_SCRIPT_LANG)

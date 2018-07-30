@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches.queries.matches
+package com.sksamuel.elastic4s_6_2_11.searches.queries.matches
 
-import com.sksamuel.elastic4s.EnumConversions
+import com.sksamuel.elastic4s_6_2_11.EnumConversions
 import org.elasticsearch.index.query.{MultiMatchQueryBuilder, QueryBuilders}
 
 object MultiMatchQueryBuilderFn {

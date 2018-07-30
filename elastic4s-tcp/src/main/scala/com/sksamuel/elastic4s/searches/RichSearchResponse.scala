@@ -1,10 +1,10 @@
-package com.sksamuel.elastic4s.searches
+package com.sksamuel.elastic4s_6_2_11.searches
 
 import java.util
 
-import com.sksamuel.elastic4s.HitReader
-import com.sksamuel.elastic4s.searches.aggs.RichAggregations
-import com.sksamuel.elastic4s.searches.suggestions._
+import com.sksamuel.elastic4s_6_2_11.HitReader
+import com.sksamuel.elastic4s_6_2_11.searches.aggs.RichAggregations
+import com.sksamuel.elastic4s_6_2_11.searches.suggestions._
 import org.elasticsearch.action.search.{SearchResponse, ShardSearchFailure}
 import org.elasticsearch.common.unit.TimeValue
 import org.elasticsearch.search.SearchHits

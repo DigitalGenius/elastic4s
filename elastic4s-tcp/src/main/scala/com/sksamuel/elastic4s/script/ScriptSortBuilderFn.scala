@@ -1,13 +1,13 @@
-package com.sksamuel.elastic4s.script
+package com.sksamuel.elastic4s_6_2_11.script
 
-import com.sksamuel.elastic4s.searches.QueryBuilderFn
-import com.sksamuel.elastic4s.searches.sort.ScriptSortDefinition
-import com.sksamuel.elastic4s.{EnumConversions, ScriptBuilder}
+import com.sksamuel.elastic4s_6_2_11.searches.QueryBuilderFn
+import com.sksamuel.elastic4s_6_2_11.searches.sort.ScriptSortDefinition
+import com.sksamuel.elastic4s_6_2_11.{EnumConversions, ScriptBuilder}
 import org.elasticsearch.search.sort.{ScriptSortBuilder, SortBuilders}
 
 object ScriptSortBuilderFn {
 
-  import com.sksamuel.elastic4s.EnumConversions._
+  import com.sksamuel.elastic4s_6_2_11.EnumConversions._
 
   def apply(d: ScriptSortDefinition): ScriptSortBuilder = {
     val builder = SortBuilders.scriptSort(ScriptBuilder(d.script), d.scriptSortType)

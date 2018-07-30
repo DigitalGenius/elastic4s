@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.index
+package com.sksamuel.elastic4s_6_2_11.index
 
-import com.sksamuel.elastic4s.DocumentRef
+import com.sksamuel.elastic4s_6_2_11.DocumentRef
 import org.elasticsearch.action.DocWriteResponse.Result
 import org.elasticsearch.action.index.IndexResponse
 

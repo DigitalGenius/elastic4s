@@ -1,4 +1,4 @@
-package com.sksamuel.elastic4s.searches.queries
+package com.sksamuel.elastic4s_6_2_11.searches.queries
 
 import org.elasticsearch.common.xcontent.{NamedXContentRegistry, XContentFactory, XContentType}
 import org.elasticsearch.index.query.{MoreLikeThisQueryBuilder, QueryBuilders}

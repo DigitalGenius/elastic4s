@@ -1,8 +1,8 @@
-package com.sksamuel.elastic4s.index
+package com.sksamuel.elastic4s_6_2_11.index
 
-import com.sksamuel.elastic4s.indexes.{AnalysisBuilderFn, CreateIndexDefinition}
-import com.sksamuel.elastic4s.json.{XContentBuilder, XContentFactory}
-import com.sksamuel.elastic4s.mappings.MappingBuilderFn
+import com.sksamuel.elastic4s_6_2_11.indexes.{AnalysisBuilderFn, CreateIndexDefinition}
+import com.sksamuel.elastic4s_6_2_11.json.{XContentBuilder, XContentFactory}
+import com.sksamuel.elastic4s_6_2_11.mappings.MappingBuilderFn
 
 object CreateIndexContentBuilder {
 

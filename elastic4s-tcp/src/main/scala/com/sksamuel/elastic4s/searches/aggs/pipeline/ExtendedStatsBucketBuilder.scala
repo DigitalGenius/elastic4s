@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches.aggs.pipeline
+package com.sksamuel.elastic4s_6_2_11.searches.aggs.pipeline
 
-import com.sksamuel.elastic4s.EnumConversions
+import com.sksamuel.elastic4s_6_2_11.EnumConversions
 import org.elasticsearch.search.aggregations.pipeline.PipelineAggregatorBuilders
 import org.elasticsearch.search.aggregations.pipeline.bucketmetrics.stats.extended.ExtendedStatsBucketPipelineAggregationBuilder
 

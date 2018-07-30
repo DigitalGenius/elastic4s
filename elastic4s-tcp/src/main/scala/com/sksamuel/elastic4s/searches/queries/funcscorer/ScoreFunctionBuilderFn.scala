@@ -1,4 +1,4 @@
-package com.sksamuel.elastic4s.searches.queries.funcscorer
+package com.sksamuel.elastic4s_6_2_11.searches.queries.funcscorer
 
 import org.elasticsearch.index.query.functionscore.{ScoreFunctionBuilder, ScoreFunctionBuilders}
 

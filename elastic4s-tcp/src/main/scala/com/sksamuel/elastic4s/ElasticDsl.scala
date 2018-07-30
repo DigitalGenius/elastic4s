@@ -1,37 +1,37 @@
-package com.sksamuel.elastic4s
+package com.sksamuel.elastic4s_6_2_11
 
-import com.sksamuel.elastic4s.admin._
-import com.sksamuel.elastic4s.alias.{AliasExecutables, GetAliasesDefinition}
-import com.sksamuel.elastic4s.analyzers._
-import com.sksamuel.elastic4s.bulk.BulkExecutables
-import com.sksamuel.elastic4s.cluster.{ClusterHealthDefinition, ClusterSettingsDefinition, ClusterStatsDefinition}
-import com.sksamuel.elastic4s.delete.DeleteExecutables
-import com.sksamuel.elastic4s.explain.{ExplainDefinition, ExplainExecutables}
-import com.sksamuel.elastic4s.get.GetExecutables
-import com.sksamuel.elastic4s.index.admin.ForceMergeExecutables
-import com.sksamuel.elastic4s.index.{
+import com.sksamuel.elastic4s_6_2_11.admin._
+import com.sksamuel.elastic4s_6_2_11.alias.{AliasExecutables, GetAliasesDefinition}
+import com.sksamuel.elastic4s_6_2_11.analyzers._
+import com.sksamuel.elastic4s_6_2_11.bulk.BulkExecutables
+import com.sksamuel.elastic4s_6_2_11.cluster.{ClusterHealthDefinition, ClusterSettingsDefinition, ClusterStatsDefinition}
+import com.sksamuel.elastic4s_6_2_11.delete.DeleteExecutables
+import com.sksamuel.elastic4s_6_2_11.explain.{ExplainDefinition, ExplainExecutables}
+import com.sksamuel.elastic4s_6_2_11.get.GetExecutables
+import com.sksamuel.elastic4s_6_2_11.index.admin.ForceMergeExecutables
+import com.sksamuel.elastic4s_6_2_11.index.{
   CreateIndexExecutables,
   DeleteIndexExecutables,
   IndexExecutables,
   IndexTemplateExecutables
 }
-import com.sksamuel.elastic4s.indexes._
-import com.sksamuel.elastic4s.indexes.admin.IndexRecoveryDefinition
-import com.sksamuel.elastic4s.mappings.FieldType._
-import com.sksamuel.elastic4s.mappings._
-import com.sksamuel.elastic4s.reindex.ReindexExecutables
-import com.sksamuel.elastic4s.snapshots.SnapshotApi
-import com.sksamuel.elastic4s.script.ScriptDefinition
-import com.sksamuel.elastic4s.search.{ScrollExecutables, SearchImplicits}
-import com.sksamuel.elastic4s.searches._
-import com.sksamuel.elastic4s.searches.aggs._
-import com.sksamuel.elastic4s.searches.queries._
-import com.sksamuel.elastic4s.searches.sort.FieldSortDefinition
-import com.sksamuel.elastic4s.settings.{GetSettingsDefinition, SettingsExecutables, UpdateSettingsDefinition}
-import com.sksamuel.elastic4s.task.TaskExecutables
-import com.sksamuel.elastic4s.termvectors.TermVectorsExecutables
-import com.sksamuel.elastic4s.update.UpdateExecutables
-import com.sksamuel.elastic4s.validate.ValidateExecutables
+import com.sksamuel.elastic4s_6_2_11.indexes._
+import com.sksamuel.elastic4s_6_2_11.indexes.admin.IndexRecoveryDefinition
+import com.sksamuel.elastic4s_6_2_11.mappings.FieldType._
+import com.sksamuel.elastic4s_6_2_11.mappings._
+import com.sksamuel.elastic4s_6_2_11.reindex.ReindexExecutables
+import com.sksamuel.elastic4s_6_2_11.snapshots.SnapshotApi
+import com.sksamuel.elastic4s_6_2_11.script.ScriptDefinition
+import com.sksamuel.elastic4s_6_2_11.search.{ScrollExecutables, SearchImplicits}
+import com.sksamuel.elastic4s_6_2_11.searches._
+import com.sksamuel.elastic4s_6_2_11.searches.aggs._
+import com.sksamuel.elastic4s_6_2_11.searches.queries._
+import com.sksamuel.elastic4s_6_2_11.searches.sort.FieldSortDefinition
+import com.sksamuel.elastic4s_6_2_11.settings.{GetSettingsDefinition, SettingsExecutables, UpdateSettingsDefinition}
+import com.sksamuel.elastic4s_6_2_11.task.TaskExecutables
+import com.sksamuel.elastic4s_6_2_11.termvectors.TermVectorsExecutables
+import com.sksamuel.elastic4s_6_2_11.update.UpdateExecutables
+import com.sksamuel.elastic4s_6_2_11.validate.ValidateExecutables
 import org.elasticsearch.action.search.SearchResponse
 
 import scala.language.implicitConversions

@@ -1,0 +1,23 @@
+package com.sksamuel.elastic4s_6_2_11.http.search.aggs
+
+import com.sksamuel.elastic4s_6_2_11.http.search.SearchBodyBuilderFn
+import com.sksamuel.elastic4s_6_2_11.searches.{DateHistogramInterval, SearchDefinition}
+import org.scalatest.{FunSuite, Matchers}
+
+import scala.concurrent.duration._
+
+class MaxBucketAggBuilderTest extends FunSuite with Matchers {
+
+  import com.sksamuel.elastic4s_6_2_11.http.ElasticDsl._
+
+  test("max bucket agg should match the spec") {
+    val search = SearchDefinition("myindex" / "mytype").aggs(
+      dateHistogramAgg("sales_per_month", "date").interval(DateHistogramInterval.Month).addSubagg(
+        sumAgg("sales", "price")
+      ),
+      maxBucketAgg("max_monthly_sales", "sales_per_month>sales")
+    )
+    SearchBodyBuilderFn(search).string() shouldBe
+      """{"version":true,"aggs":{"sales_per_month":{"date_histogram":{"interval":"1M","field":"date"},"aggs":{"sales":{"sum":{"field":"price"}}}},"max_monthly_sales":{"max_bucket":{"buckets_path":"sales_per_month>sales"}}}}"""
+  }
+}

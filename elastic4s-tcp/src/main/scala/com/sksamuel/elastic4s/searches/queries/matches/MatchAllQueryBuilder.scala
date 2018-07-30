@@ -1,4 +1,4 @@
-package com.sksamuel.elastic4s.searches.queries.matches
+package com.sksamuel.elastic4s_6_2_11.searches.queries.matches
 
 import org.elasticsearch.index.query.{MatchAllQueryBuilder, MatchNoneQueryBuilder, QueryBuilders}
 

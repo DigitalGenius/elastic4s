@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.mappings
+package com.sksamuel.elastic4s_6_2_11.mappings
 
-import com.sksamuel.elastic4s.IndexAndType
+import com.sksamuel.elastic4s_6_2_11.IndexAndType
 import org.elasticsearch.action.admin.indices.mapping.get.GetMappingsResponse
 import org.elasticsearch.cluster.metadata.MappingMetaData
 

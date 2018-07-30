@@ -1,7 +1,7 @@
-package com.sksamuel.elastic4s.searches.queries
+package com.sksamuel.elastic4s_6_2_11.searches.queries
 
-import com.sksamuel.elastic4s.EnumConversions
-import com.sksamuel.elastic4s.searches.queries.geo.GeoPolygonQueryDefinition
+import com.sksamuel.elastic4s_6_2_11.EnumConversions
+import com.sksamuel.elastic4s_6_2_11.searches.queries.geo.GeoPolygonQueryDefinition
 import org.elasticsearch.index.query.{GeoPolygonQueryBuilder, QueryBuilders}
 
 import scala.collection.JavaConverters._

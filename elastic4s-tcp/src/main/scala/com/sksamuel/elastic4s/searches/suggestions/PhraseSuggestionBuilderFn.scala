@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches.suggestions
+package com.sksamuel.elastic4s_6_2_11.searches.suggestions
 
-import com.sksamuel.elastic4s.searches.suggestion.PhraseSuggestionDefinition
+import com.sksamuel.elastic4s_6_2_11.searches.suggestion.PhraseSuggestionDefinition
 import org.elasticsearch.search.suggest.SuggestBuilders
 import org.elasticsearch.search.suggest.phrase.PhraseSuggestionBuilder
 

@@ -1,4 +1,4 @@
-package com.sksamuel.elastic4s.bulk
+package com.sksamuel.elastic4s_6_2_11.bulk
 
 import org.elasticsearch.action.bulk.BulkResponse
 

@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.bulk
+package com.sksamuel.elastic4s_6_2_11.bulk
 
-import com.sksamuel.elastic4s.TcpClient
+import com.sksamuel.elastic4s_6_2_11.TcpClient
 import com.sksamuel.exts.OptionImplicits._
 import org.elasticsearch.action.bulk.BulkProcessor.Listener
 import org.elasticsearch.action.bulk.{BackoffPolicy, BulkRequest, BulkResponse}

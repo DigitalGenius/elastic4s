@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches.highlighting
+package com.sksamuel.elastic4s_6_2_11.searches.highlighting
 
-import com.sksamuel.elastic4s.searches.{HighlightFieldDefinition, HighlightOptionsDefinition, QueryBuilderFn}
+import com.sksamuel.elastic4s_6_2_11.searches.{HighlightFieldDefinition, HighlightOptionsDefinition, QueryBuilderFn}
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder
 import scala.collection.JavaConversions._
 

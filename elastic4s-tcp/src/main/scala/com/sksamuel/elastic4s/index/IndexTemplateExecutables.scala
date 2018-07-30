@@ -1,8 +1,8 @@
-package com.sksamuel.elastic4s.index
+package com.sksamuel.elastic4s_6_2_11.index
 
-import com.sksamuel.elastic4s.Executable
-import com.sksamuel.elastic4s.admin.CreateIndexTemplateBuilder
-import com.sksamuel.elastic4s.indexes.{
+import com.sksamuel.elastic4s_6_2_11.Executable
+import com.sksamuel.elastic4s_6_2_11.admin.CreateIndexTemplateBuilder
+import com.sksamuel.elastic4s_6_2_11.indexes.{
   CreateIndexTemplateDefinition,
   DeleteIndexTemplateDefinition,
   GetIndexTemplateDefinition

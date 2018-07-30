@@ -1,10 +1,10 @@
-package com.sksamuel.elastic4s.bulk
+package com.sksamuel.elastic4s_6_2_11.bulk
 
 import java.util.concurrent.TimeUnit
 
-import com.sksamuel.elastic4s.delete.{DeleteByIdDefinition, DeleteExecutables}
-import com.sksamuel.elastic4s.index.IndexExecutables
-import com.sksamuel.elastic4s.indexes.IndexDefinition
+import com.sksamuel.elastic4s_6_2_11.delete.{DeleteByIdDefinition, DeleteExecutables}
+import com.sksamuel.elastic4s_6_2_11.index.IndexExecutables
+import com.sksamuel.elastic4s_6_2_11.indexes.IndexDefinition
 import org.elasticsearch.client.Client
 
 import scala.concurrent.duration._

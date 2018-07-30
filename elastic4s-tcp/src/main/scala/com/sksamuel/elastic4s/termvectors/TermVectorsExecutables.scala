@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.termvectors
+package com.sksamuel.elastic4s_6_2_11.termvectors
 
-import com.sksamuel.elastic4s.Executable
+import com.sksamuel.elastic4s_6_2_11.Executable
 import org.elasticsearch.action.termvectors.TermVectorsRequest.FilterSettings
 import org.elasticsearch.action.termvectors.{TermVectorsRequestBuilder, TermVectorsResponse}
 import org.elasticsearch.client.Client

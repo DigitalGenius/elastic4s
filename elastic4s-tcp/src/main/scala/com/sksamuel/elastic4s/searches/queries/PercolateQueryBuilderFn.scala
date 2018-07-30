@@ -1,6 +1,6 @@
-package com.sksamuel.elastic4s.searches.queries
+package com.sksamuel.elastic4s_6_2_11.searches.queries
 
-import com.sksamuel.elastic4s.DocumentRef
+import com.sksamuel.elastic4s_6_2_11.DocumentRef
 import org.elasticsearch.common.bytes.BytesArray
 import org.elasticsearch.percolator.PercolateQueryBuilder
 

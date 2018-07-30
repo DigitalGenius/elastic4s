@@ -1,4 +1,4 @@
-package com.sksamuel.elastic4s.alias
+package com.sksamuel.elastic4s_6_2_11.alias
 
 import org.elasticsearch.action.admin.indices.alias.get.GetAliasesResponse
 import org.elasticsearch.cluster.metadata.AliasMetaData

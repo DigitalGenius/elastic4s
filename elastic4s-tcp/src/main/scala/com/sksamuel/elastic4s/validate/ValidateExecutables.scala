@@ -1,7 +1,7 @@
-package com.sksamuel.elastic4s.validate
+package com.sksamuel.elastic4s_6_2_11.validate
 
-import com.sksamuel.elastic4s.Executable
-import com.sksamuel.elastic4s.searches.QueryBuilderFn
+import com.sksamuel.elastic4s_6_2_11.Executable
+import com.sksamuel.elastic4s_6_2_11.searches.QueryBuilderFn
 import org.elasticsearch.action.admin.indices.validate.query.ValidateQueryResponse
 import org.elasticsearch.client.Client
 
